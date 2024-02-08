@@ -1,0 +1,18 @@
+input {
+  width: 300px; /* Ajuste o valor conforme necessário */
+  padding: 10px; /* Adicione algum espaço interno para melhorar a aparência */
+  box-sizing: border-box; /* Inclui o padding no cálculo do tamanho total */
+  border-radius: 0.4rem;
+}
+
+label {
+  text-align: left;
+}
+
+#msg {
+  color: #ff0000;
+}
+
+button {
+  border-radius: 0.4rem;
+}

@@ -1,0 +1,19 @@
+.sobre {
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+.sobre img {
+  width: 150px;
+  height: auto;
+  float: right; /* Faz a imagem flutuar à esquerda */
+  margin-left: 3rem; /* Adiciona um espaço à direita da imagem */
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.5); /* Adiciona uma borda de 2 pixels sólidos de cor #333 */
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-align: left;
+}

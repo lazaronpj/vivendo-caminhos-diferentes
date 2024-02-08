@@ -1,0 +1,33 @@
+h2{
+    text-indent: 1rem;
+}
+
+.data{
+    text-indent: 1rem;
+}
+.post{
+    text-indent: 1rem;
+    text-align:justify ;
+    font-weight: 400;
+}
+
+.post-image{
+    height: auto;
+    max-width: 100%;
+    position:relative;
+    margin-left: 1.5rem;
+}
+
+legend{
+    font-weight: 300;   
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 1.5rem;
+}
+
+p{
+    font-weight: 500;
+    text-indent: 1rem;
+
+}

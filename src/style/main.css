@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  background-color: #bfa283;
+  position: relative;
+  min-height: 100vh;
+  color: #3d3d3d;
+  font-weight: 500;
+  overflow-x: hidden; /* Impede a rolagem horizontal */
+}
+
+header {
+  background-color: #bfa283;
+  padding: 0.1rem;
+  text-align: center;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d3d3d;
+  border-radius: 0.3rem;
+  border-style: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  padding: 0.8rem;
+}
+
+.navigator {
+  display: flex;
+  align-items: center;
+}
+
+.navigator .icon {
+  width: 21px; /* Defina a largura desejada para a imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-right: 5px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0 0.1em;
+}
+
+nav a:hover {
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0 0.1em;
+  color: #bfa283;
+  transition: 0.5s;
+}
+
+main {
+  max-width: 185vh;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: #aeaeae;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #3d3d3d;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+.float-socials {
+  display: flex;
+  align-items: start;
+  margin-left: 1rem;
+}
+
+.img-float {
+  padding-left: 0.5rem;
+}
+
+h3 {
+  color: #5b5b5b;
+  text-decoration: solid;
+}
+
+h2 {
+  color: #5b5b5b;
+  text-decoration: solid;
+  font-weight: 600;
+}
+
+h2:hover {
+  color: #bfa283;
+  text-decoration: solid;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+h4 {
+  color: #6c6c6c;
+  font-weight: 500;
+}
+
+a {
+  color: #464646;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bfa283;
+  transition: 0.3s;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.copy {
+  text-align: start;
+}
+
+.copy a {
+  color: #bfa283;
+  font-weight: 700;
+}
+
+.copy a:hover {
+  color: #8d6d4b;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+}
+

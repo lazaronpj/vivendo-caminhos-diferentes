@@ -1,0 +1,38 @@
+.container {
+  max-width: 100%; /* Garante que a largura não exceda a largura da tela */
+}
+
+.article {
+  background-color: #d1d1d1;
+  padding: 1rem;
+  margin-bottom: 1em;
+}
+
+.article0 .imgPost{
+  max-width: 150px;
+  width: 250px;
+  margin-right: 1rem;
+}
+
+.article1 .article2 .article3 {
+  background-color: #5d5d5d;
+}
+
+.data {
+  text-align: right;
+  color: #5d5d5d;
+  font-weight: 300;
+}
+
+.autor {
+  color: #5d5d5d;
+}
+
+main img {
+  width: 32px;
+  display: flex;
+  margin-bottom: px;
+  height: auto;
+  float: left; /* Faz a imagem flutuar à esquerda */
+}
+
